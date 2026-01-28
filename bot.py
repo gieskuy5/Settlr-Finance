@@ -282,7 +282,7 @@ def display_banner():
     print(f"{Fore.YELLOW} \\    ||     | |  |    |  |  |     ||  .  \\{Style.RESET_ALL}")
     print(f"{Fore.YELLOW}  \\___||_____| |__|    |__|  |_____||__|\\_|{Style.RESET_ALL}")
     print()
-    print(f"{Fore.GREEN}          https://t.me/MDFKOfficial         {Style.RESET_ALL}")
+    print(f"{Fore.WHITE}          https://t.me/MDFKOfficial         {Style.RESET_ALL}")
     print()
 
 def display_menu():
