@@ -273,11 +273,16 @@ def execute_trade(session, fingerprint, csrf_token, market_id, side, size, lever
 # ======================= DISPLAY FUNCTIONS =======================
 def display_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(f"{Fore.CYAN}╔═══════════════════════════════════════════════════════════╗{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}║{Style.RESET_ALL}{Fore.YELLOW}            SETTLR AUTOMATION BOT (Python)                {Style.RESET_ALL}{Fore.CYAN}║{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}╠═══════════════════════════════════════════════════════════╣{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}║{Style.RESET_ALL}{Fore.WHITE} https://t.me/MDFKOfficial         {Style.RESET_ALL}{Fore.CYAN}║{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}╚═══════════════════════════════════════════════════════════╝{Style.RESET_ALL}")
+    print()
+    print(f"{Fore.YELLOW}  _____   ___ ______  ______  _      ____  {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW} / ___/  /  _]      ||      || |    |    \\ {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}(   \\_  /  [_|      ||      || |    |  D  ){Style.RESET_ALL}")
+    print(f"{Fore.YELLOW} \\__  ||    _]_|  |_||_|  |_|| |___ |    / {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW} /  \\ ||   [_  |  |    |  |  |     ||    \\ {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW} \\    ||     | |  |    |  |  |     ||  .  \\{Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}  \\___||_____| |__|    |__|  |_____||__|\\_|{Style.RESET_ALL}")
+    print()
+    print(f"{Fore.GREEN}          https://t.me/MDFKOfficial         {Style.RESET_ALL}")
     print()
 
 def display_menu():
